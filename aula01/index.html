@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>* { font-family: 'Courier New', Courier, monospace;}</style>
+    <title>Script</title>
+</head>
+<body>
+    <h1>Introdução a Lógica</h1>
+    <form>
+        <input type="text" placeholder="nome" id="nome">
+        <input type="submit" id="btn">
+    </form>
+
+    <script>
+        // alert("Olá, Mundo!")
+
+        // ENTRADA DE DADOS | INPUT 
+        // prompt("Digite seu nome")
+
+        /* alert(vagaEstacionamento)
+
+        // ----------------------------------
+
+        vagaEstacionamento = "Carro Azul"
+
+        alert(vagaEstacionamento) */
+
+        // ----------------------------------
+
+        var name = prompt("Digite seu nome")
+        alert ("Olá, " + name)
+
+        var nome = document.querySelector("#nome")
+        var btn = document.querySelector("#btn")
+
+        function pegarValor() {
+            alert(nome.value)
+
+        }
+
+        btn.addEventListener("click", pegarValor)
+
+
+        // ----------------------------------
+       
+
+
+    </script>
+</body>
+</html>
