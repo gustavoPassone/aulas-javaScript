@@ -1,6 +1,5 @@
-var n1 = Number(prompt("Número em dólar para a conversão"))
-resultado = n1 / 5.30
+var valor = Number(prompt("Número em dólar para a conversão"))
+var cambio = 5.30
+var conversao = valor * cambio
 
-// alert("A conversão para real é: " + resultado)
-
-alert(`$${n1} em Real = R$${resultado}`)
+alert(`${valor.toLocaleString('pt-br', {style: 'currency', currency: 'USD'})} = ${conversao.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`)
