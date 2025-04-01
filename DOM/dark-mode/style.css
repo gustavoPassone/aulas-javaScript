@@ -1,0 +1,25 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s;
+}
+
+.dark-mode {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    
+    #btn {
+        background-color: white;
+        color: black;
+    }
+}
+
+#btn {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
