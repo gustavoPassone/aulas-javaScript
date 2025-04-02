@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: #011b1d;
+    padding: 20px;
+    color: #f2f2f2;
+}
+.content {
+    max-width: 30vw;
+    margin: auto;
+    padding: 20px;
+}
+h1 {
+    margin-bottom: 40px;
+}
+.exercise-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    background-color: #04666d;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.exercise-btn:hover {
+    background-color: #03494e;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-voltar {
+    background-color: rgb(51, 47, 47);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    font-size: 15px;
+    width: 100px;
+}
+
+.btn-voltar:hover {
+    background-color: rgb(61, 57, 57);
+}
