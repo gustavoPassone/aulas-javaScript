@@ -6,9 +6,10 @@ function darkMode() {
     
     if (btn.innerHTML == "Ativar") {
         btn.innerHTML = "Desativar"
-    } else {
-        btn.innerHTML = "Ativar"
-    }
+        return;
+    } 
+    btn.innerHTML = "Ativar"
+    
 }
 
 btn.addEventListener('click', darkMode)
