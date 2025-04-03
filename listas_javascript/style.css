@@ -16,8 +16,15 @@ body {
     max-width: 30vw;
     margin: auto;
     padding: 20px;
+    min-width: 350px;
 }
 h1 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: rgb(190, 190, 190);
+    font-size: 20px;
     margin-bottom: 40px;
 }
 .exercise-btn {
@@ -48,7 +55,7 @@ a {
     border-radius: 7px;
     cursor: pointer;
     text-decoration: none;
-    position: absolute;
+    position: fixed;
     top: 40px;
     left: 60px;
     font-size: 15px;
@@ -57,4 +64,37 @@ a {
 
 .btn-voltar:hover {
     background-color: rgb(61, 57, 57);
+}
+
+@media screen and (max-width: 641px) {
+    .btn-voltar {
+        left: 40px;
+    }
+}
+
+@media screen and (max-width: 597px) {
+    .btn-voltar {
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 553px) {
+    .btn-voltar {
+        left: 5px;
+        width: 50px;
+        span {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .btn-voltar {
+        left: 5px;
+        width: 25px;
+        height: 50px;
+        i {
+            font-size: 15px;
+        }
+    }
 }
